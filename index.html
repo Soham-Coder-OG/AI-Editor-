@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Editor - Free AI-Powered Creative Suite</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Unleash your creativity with a free AI-powered creative suite. Effortlessly edit photos, merge images, and generate unique art from text prompts in seconds.">
+    <meta name="keywords" content="AI photo editor, free AI image generator, image merger, text to image, AI art generator, creative suite, generative AI, photo editing software, online image editor">
+    <meta name="theme-color" content="#0f172a">
+
+    <!-- Canonical URL (Replace with your actual domain) -->
+    <link rel="canonical" href="https://aieditor.example.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aieditor.example.com/">
+    <meta property="og:title" content="AI Editor - Your Free AI-Powered Creative Suite">
+    <meta property="og:description" content="Unleash your creativity with a free AI-powered creative suite. Effortlessly edit photos, merge images, and generate unique art from text prompts in seconds.">
+    <!-- Replace with a URL to a compelling social share image (1200x630px) -->
+    <meta property="og:image" content="https://aieditor.example.com/social-share-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://aieditor.example.com/">
+    <meta property="twitter:title" content="AI Editor - Your Free AI-Powered Creative Suite">
+    <meta property="twitter:description" content="Unleash your creativity with a free AI-powered creative suite. Effortlessly edit photos, merge images, and generate unique art from text prompts in seconds.">
+    <!-- Replace with a URL to a compelling social share image (1200x630px) -->
+    <meta property="twitter:image" content="https://aieditor.example.com/social-share-image.jpg">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'primary': '#38bdf8',     // Sky 400
+              'secondary': '#818cf8',   // Indigo 400
+              'background': '#020617', // Slate 950
+              'surface': '#0f172a',    // Slate 900
+              'muted': '#334155',      // Slate 700
+              'subtle': '#94a3b8',     // Slate 400
+              'text': '#e2e8f0',       // Slate 200
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.5s ease-in-out',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+            },
+            boxShadow: {
+              'glow-primary': '0 0 20px 0px rgba(56, 189, 248, 0.25)',
+            }
+          }
+        }
+      }
+    </script>
+    <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.17.0",
+    "@supabase/supabase-js": "https://aistudiocdn.com/@supabase/supabase-js@^2.81.1"
+  }
+}
+</script>
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "AI Editor",
+      "description": "An AI-powered creative suite that allows users to edit photos with text prompts, merge multiple images, and generate new images from scratch.",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "All",
+      "browserRequirements": "Requires a modern web browser with JavaScript enabled.",
+      "featureList": [
+        "AI Photo Editing with Text Prompts",
+        "Precise Masking for Selective Edits",
+        "AI Image Merging to Combine Photos",
+        "AI Image Generation from Scratch",
+        "Multiple Aspect Ratio Options"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "What is AI Editor?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "AI Editor is a web-based suite of tools that uses generative AI to help you edit, merge, and create images using simple text prompts."
+        }
+      },{
+        "@type": "Question",
+        "name": "Is it free to use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, AI Editor is currently completely free to use. You can access all features without any limits or the need for an account."
+        }
+      },{
+        "@type": "Question",
+        "name": "What happens to my uploaded images?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We respect your privacy. Your images are processed securely to fulfill your request and are not stored on our servers or used for any other purpose."
+        }
+      }]
+    }
+    </script>
+</head>
+  <body class="bg-background text-text">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

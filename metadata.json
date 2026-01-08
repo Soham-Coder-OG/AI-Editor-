@@ -1,0 +1,5 @@
+{
+  "name": "AI Editor",
+  "description": "An AI-powered creative suite that allows users to edit photos with text prompts, merge multiple images, and generate new images from scratch, with freemium subscription tiers.",
+  "requestFramePermissions": []
+}
